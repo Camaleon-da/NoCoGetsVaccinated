@@ -156,6 +156,14 @@ section {
     padding: 7.5rem 0;
 }
 
+.padding-bottom {
+    padding-bottom: 15px;
+}
+
+.padding-top {
+    padding-top: 65px;
+}
+
 /* transition none */
 .no-transition * {
     transition-timing-function: initial;
@@ -1350,7 +1358,24 @@ header a.logo img {
    END SERVICES
 ====================================== */
 
+/* ===================================
+        Sponser sec css
+====================================== */
+.sponser-sec h3 {
+    padding-bottom: 35px;
+}
 
+.sponser-tags .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sponser-tags .item img {
+    width: 60%;
+    display: inline-block;
+}
 
 
 
@@ -1569,7 +1594,7 @@ header a.logo img {
 ====================================== */
 .faq-section {
     background: #fdfdfd;
-    min-height: 100vh;
+    min-height: 80vh;
     padding: 10vh 0 0;
     padding-top: 0;
 }
@@ -1746,6 +1771,7 @@ header a.logo img {
 
 .company-about {
     font-size: 14px;
+    color: #FFF;
 }
 
 

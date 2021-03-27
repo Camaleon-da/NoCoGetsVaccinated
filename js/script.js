@@ -70,6 +70,34 @@ jQuery(function ($) {
     });
 
     /* ===================================
+   Sponser Slider
+   ====================================== */
+
+    $('.sponser-tags').owlCarousel({
+
+        loop: true,
+        margin: 20,
+        slideSpeed: 5000,
+        slideTransition: 'linear',
+        nav: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 2
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 4
+            },
+        }
+    });
+
+    /* ===================================
         Mobile OWL CAROUSEL
     ====================================== */
 
