@@ -1868,6 +1868,18 @@ header a.logo img {
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+    .adv-sec {
+        text-align: center;
+    }
+
+    .banner img {
+        margin-top: 20px;
+    }
+
+    .adv-sec .download-app h2 {
+        font-size: 26px;
+    }
+
     .side-menu {
         width: 100%;
     }
@@ -1910,6 +1922,18 @@ header a.logo img {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .adv-sec {
+        text-align: center;
+    }
+
+    .adv-sec .download-app h2 {
+        font-size: 26px;
+    }
+    
+    .banner img {
+        margin-top: 20px;
+    }
+
     .side-menu {
         width: 100%;
     }
