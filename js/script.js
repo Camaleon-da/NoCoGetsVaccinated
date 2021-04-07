@@ -4,7 +4,7 @@ jQuery(window).on("load", function () {
     /*  ===================================
      Loading Timeout
      ====================================== */
-    $(".loader1").fadeOut(800);
+    $(".loader1").fadeOut(100);
     $('.side-menu').removeClass('hidden');
 });
 
