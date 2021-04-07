@@ -52,19 +52,19 @@ jQuery(function ($) {
     ====================================== */
 
     $('.screenshot-slider').owlCarousel({
-        loop:false,
+        loop: false,
         autoplay: true,
-        margin:10,
-        nav:false,
-        responsive:{
-            0:{
-                items:1
+        margin: 10,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
             },
-            600:{
-                items:2
+            600: {
+                items: 2
             },
-            1000:{
-                items:3
+            1000: {
+                items: 3
             }
         }
     });
@@ -129,16 +129,16 @@ jQuery(function ($) {
 
     });
 
-/*=======================================
-          Wow Effects
-======================================*/
+    /*=======================================
+              Wow Effects
+    ======================================*/
     var wow = new WOW(
         {
-            boxClass:'wow',      // default
-            animateClass:'animated', // default
-            offset:0,          // default
-            mobile:false,       // default
-            live:true        // default
+            boxClass: 'wow',      // default
+            animateClass: 'animated', // default
+            offset: 0,          // default
+            mobile: false,       // default
+            live: true        // default
         }
     );
     wow.init();
